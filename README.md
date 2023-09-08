@@ -39,6 +39,7 @@ For each exception and error you cause, report the following:
 - "invalid method declaration" error on line 4 after making a constructor that had a different name than the class
 - "class interface enum expected" on line 42 after deleting its method, making the computer expect one of those because of the ending curly brace
 - "reached end of file while parsing" on line 42 after deleting half of the code so I'm not sure but probably it was looking for a method I deleted
+- "<Identifier> expected" error after deleting the Scanner from "Scanner scanner = new Scanner(System.in)" sure we'll go with that
 
 
 ## Runtime Errors

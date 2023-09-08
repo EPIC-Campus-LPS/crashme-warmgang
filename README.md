@@ -17,3 +17,13 @@ For each exception and error you cause, report the following:
 1. What exception or error did you cause?
 2. How did you cause it?
 3. What does that exception or error mean? Did it occur at compile time or runtime?
+
+## Compile Time Errors
+- "expected" error on line 27 after removing the ending parenthesis, meaning it expected the parenthesis to be there because of the starting parenthesis existing
+- "unclosed string literal" error on line 30 after removing the closing quotation mark, meaning it expected the closing quotation mark to be there because of the opening quotation mark
+- "illegal start of expression" error on line 8 after commenting out the variable content, meaning it has nothing to assign to the variable 
+- "not a statement" error on line 10 after defining a variable without an assignment operator, meaning the computer was told something but not given specifics about it
+- 
+
+## Runtime Errors
+- 

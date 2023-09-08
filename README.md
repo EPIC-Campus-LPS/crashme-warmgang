@@ -31,6 +31,12 @@ For each exception and error you cause, report the following:
 - "possible lossy conversion" error on line 28 after defining float i to 0.0, meaning the computer might lose information when turning a double to a float
 - "incompatible type" error on line 29 after defining boolean j as i, meaning the computer is trying to make a boolean an int
 - "missing return" error on line 61 after commenting out the return statement on line 59, meaning the computer can't return if the else statement runs
+- "integer number too large" on line 14 after trying to make a really big array
+- "class is public, should be in same-named - file" error after compiling a class called "no" in a file called "StudentGradeCalculator"
+- "non-static method" error after removing the static keyword from a method signature that is called within the same class
+- "non-static variable cannot be referenced from a static context" error after making an instance variable that was accessed within the same class
+- "unreachable statement" error on line 61 after putting a print statement after the method's return statement
+- "invalid method declaration" error on line 4 after making a constructor that had a different name than the class
 
 ## Runtime Errors
 - "ArrayIndexOutOfBoundsException" on line 14 after trying to access the 2000th index of an array that was specified with a length of 1; this means that the code tried to look at a value that doesn't exist
@@ -38,4 +44,7 @@ For each exception and error you cause, report the following:
 - "StringIndexOutOfBoundsException" on line 68 after trying to access the 2000th character of a string of length 6; this means that the code tried to look at a part of the string that didn't exist
 - "InputMismatchException" on line 8 after inputting a string when it expected a integer; this means that the computer was given a data type it couldn't do anything with
 - "ArithmeticException" on line 30 after dividing by zero; the computer cannot handle indeterminate forms
+- "NegativeArraySizeException" on line 10 after inputting a negative number, thereby passing in a negative length to an array
+- "StackOverFlow Area" on line 49 after infinitely recursively calling a method
+- "ClassNotFoundException" error after trying to run a java class that did not exist
 - 

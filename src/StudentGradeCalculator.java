@@ -26,6 +26,7 @@ public class StudentGradeCalculator {
 
     public static void inputStudentData(Scanner scanner, String[] studentNames, double[] testScores, double[] otherScores) {
         for (int i = 0; i < studentNames.length; i++) {
+
             scanner.nextLine();  // Consume newline
             System.out.print("Enter the name of student #" + (i + 1) + ": ");
             studentNames[i] = scanner.nextLine();

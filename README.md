@@ -37,6 +37,9 @@ For each exception and error you cause, report the following:
 - "non-static variable cannot be referenced from a static context" error after making an instance variable that was accessed within the same class
 - "unreachable statement" error on line 61 after putting a print statement after the method's return statement
 - "invalid method declaration" error on line 4 after making a constructor that had a different name than the class
+- "class interface enum expected" on line 42 after deleting its method, making the computer expect one of those because of the ending curly brace
+- "reached end of file while parsing" on line 42 after deleting half of the code so I'm not sure but probably it was looking for a method I deleted
+
 
 ## Runtime Errors
 - "ArrayIndexOutOfBoundsException" on line 14 after trying to access the 2000th index of an array that was specified with a length of 1; this means that the code tried to look at a value that doesn't exist

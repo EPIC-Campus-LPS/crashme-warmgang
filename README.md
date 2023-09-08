@@ -23,7 +23,14 @@ For each exception and error you cause, report the following:
 - "unclosed string literal" error on line 30 after removing the closing quotation mark, meaning it expected the closing quotation mark to be there because of the opening quotation mark
 - "illegal start of expression" error on line 8 after commenting out the variable content, meaning it has nothing to assign to the variable 
 - "not a statement" error on line 10 after defining a variable without an assignment operator, meaning the computer was told something but not given specifics about it
-- 
+- "cannot find symbol" error on line 37 after asking for variable i with it not existing, meaning the computer can't find it
+- "variable already defined" error on line 29 after redefining i as a float, meaning the computer can't decide if i is an int of float
+- "array required" error on line 29 after asking for i[0], meaning that the computer has to find the index of an int but understandably can't
+- "might not initialized" error on line 31 after defining j as an int but not having a value and then asking for j + 1, meaning the computer can't add a null value and 1
+- "bad operand type" error on line 30 after trying to add i and true, meaning the computer can't add an int and a boolean
+- "possible lossy conversion" error on line 28 after defining float i to 0.0, meaning the computer might lose information when turning a double to a float
+- "incompatible type" error on line 29 after defining boolean j as i, meaning the computer is trying to make a boolean an int
+- "missing return" error on line 61 after commenting out the return statement on line 59, meaning the computer can't return if the else statement runs
 
 ## Runtime Errors
 - "ArrayIndexOutOfBoundsException" on line 14 after trying to access the 2000th index of an array that was specified with a length of 1; this means that the code tried to look at a value that doesn't exist

@@ -7,9 +7,11 @@ To complete this assignment, we will use the pair programming model. One person 
 
 At the end of the assignment, complete the following reflection about the pair programming model.
 1. What was successful about the pair programming model for your group?
+Nicholas: I think that we got through the list very efficiently, by going back and forth on different parts of the list. As navigator, I did Chapter 2 and Nathan did Chapter 3.
 2. What changes would you make to this model to make it more successful for your group?
+Nicholas: Not much, as we worked pretty successfully in my opinion. I think Nathan was the better driver so maybe a permanent driver/navigator but I realize that wouldn't give us a blanced understanding.
 3. Why do you think software developers use this strategy when developing code?
-
+Nicholas: Because some software developers might be know different or better import packages and methods which the other doesn't, which when used as a navigator, can intoduce the concepts to the driver. Overall, it probably shares more information between each of the people.
 ## Documentation
 Rather than submitting code for this assignment, you will edit and push this README.md file to document your progress.
 
